@@ -11,6 +11,8 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  align-items: center;
 }
 
 header {
@@ -19,6 +21,7 @@ header {
   height: 4.8em;
   align-items: center;
   justify-content: flex-end;
+  align-self: flex-end;
   padding: 0.6em;
 }
 
@@ -28,6 +31,7 @@ header nav ul {
   margin: 0;
   align-items: center;
   gap: 1.5em;
+  padding-right: 15px;
 }
 
 header nav ul li a {
@@ -50,14 +54,12 @@ header nav ul li a.active {
 }
 
 main {
-  margin-top: auto;
   display: flex;
-  align-self: center;
-  justify-self: end;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
+  max-width: 584px;
+  height: 100%;
+  justify-content: center;
 }
 
 .search-bar {
@@ -115,6 +117,7 @@ main {
 
 .buttons {
   display: flex;
+  justify-content: center;
 }
 
 .buttons input {
@@ -147,4 +150,24 @@ main {
   top: -15px;
   font-size: 1.6rem;
   color: #4285f4;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 15px 0;
+  font-size: 15px;
+  color: #70757a;
+  background: #f2f2f2;
+  justify-content: space-between;
+}
+
+footer span:first-child {
+  padding-left: 30px;
+}
+
+footer span:nth-child(2) {
+  padding-right: 30px;
 }
