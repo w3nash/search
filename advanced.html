@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="css/advanced.css" />
+    <link
+      rel="shortcut icon"
+      href="https://www.google.com/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./images/google.svg" alt="Google Logo" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">All</a></li>
+          <li><a href="./images.html">Images</a></li>
+          <li><a href="#" class="active">Advanced</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bar">
+      <label> Advanced Search</label>
+    </div>
+    <div class="hr"></div>
+    <main>
+      <form action="https://www.google.com/search">
+        <div class="container">
+          <div class="left">
+            <p class="head">Find pages with...</p>
+            <div class="input-group">
+              <label for="as_q">all these words:</label>
+              <input type="text" name="as_q" />
+            </div>
+            <div class="input-group">
+              <label for="as_epq">this exact word or phrase:</label>
+              <input type="text" name="as_epq" />
+            </div>
+            <div class="input-group">
+              <label for="as_oq">any of these words:</label>
+              <input type="text" name="as_oq" />
+            </div>
+            <div class="input-group">
+              <label for="as_eq">none of these words:</label>
+              <input type="text" name="as_eq" />
+            </div>
+            <div class="button">
+              <input type="submit" value="Advanced Search" />
+            </div>
+          </div>
+          <div class="right">
+            <p class="head">To do this in the search box</p>
+            <div class="info">
+              <p>Type the important words: <span>tricolor rat terrier</span></p>
+              <p>Put exact words in quotes: <span>"rat terrier"</span></p>
+              <p>
+                Type <span>OR</span> between all the words you want:
+                <span>miniature OR standard</span>
+              </p>
+              <p>
+                Put a minus sign just before words you don't want:
+                <span> -rodent, -"Jack Russell"</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="hr" style="margin: 18px 0"></div>
+        <div class="ad">
+          <p class="head">You can also...</p>
+          <a href="https://w3nash.github.io"
+            >Avail My Services in Web Development with Python and JavaScript</a
+          >
+          <a href="https://github.com/w3nash">Follow Me on GitHub</a>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <span>Philippines</span>
+      <span>Made by Jonash Marcelino</span>
+    </footer>
+  </body>
+</html>

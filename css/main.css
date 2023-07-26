@@ -56,10 +56,27 @@ header nav ul li a.active {
 main {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 100%;
   max-width: 584px;
-  height: 100%;
+  flex: 1;
+  top: -65px;
   justify-content: center;
+}
+
+.ad {
+  text-align: center;
+  font-size: small;
+  padding: 0 30px;
+}
+
+.ad a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.ad a:hover {
+  text-decoration: underline;
 }
 
 .search-bar {
@@ -110,6 +127,11 @@ main {
 }
 
 .search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search-bar:focus-within {
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
 }
