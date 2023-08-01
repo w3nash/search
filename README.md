@@ -1,4 +1,4 @@
-# CS50 Web: Project 0
+# CS50 Web: Project 0 (Search)
 A front-end for Google Search, Google Image Search, and Google Advanced Search.
 
 ## Specification
